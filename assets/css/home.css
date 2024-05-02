@@ -1,0 +1,104 @@
+.carousel-inner {
+  justify-content: center;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #3f3f3f;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+.card .img-wrapper {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  max-height: 100%;
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+  .card img {
+    width: 300px;
+    height: 225px;
+  }
+}
+
+.discount {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+.discount > #header {
+  padding-left: 25px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+}
+.discount > #header > #left {
+  display: flex;
+  flex-direction: column;
+}
+#timer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#countdown {
+  background-color: rgb(218, 66, 49);
+  color: white;
+  padding: 0.2em 0.6em;
+  border-radius: 1em;
+  margin-left: 0.5em;
+}
+#day,
+#hour,
+#minute,
+#second {
+  margin: 0 0.2em;
+}
+.discount > #header > #right {
+  width: fit-content;
+}
+#header > #countdown {
+  font-size: 1.3 em;
+}
+
+.discount > #body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.discount > #body > #tagline {
+  padding: 0 1.5em;
+}
+.discount > #body > #product-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+

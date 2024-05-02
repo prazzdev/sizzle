@@ -1,0 +1,76 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+  }
+
+  .card img {
+      max-height: 100%;
+      max-width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .card img {
+      height: 150px;
+      max-width: 100%;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+  }
+
+  .navbar-nav .nav-link {
+    position: relative;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2.4px;
+  background-color: #0d6efd;
+  transition: width 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #0d6efd;
+  color: white;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #0056b3;
+}
+
+#scrollToTopBtn.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+#scrollToTopBtn.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
