@@ -5,7 +5,6 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #F2F2F2;
 }
-
 #container-login {
     background-color: #ffffff;
     position: relative;
@@ -17,7 +16,6 @@ body {
     box-shadow: 0 3px 10px 0 #ffffff;
     text-align: center;
 }
-
 #container-register {
     background-color: #ffffff;
     position: relative;
@@ -29,7 +27,6 @@ body {
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
 }
-
 #title {
     position: relative;
     background-color: #f57b09;
@@ -39,12 +36,10 @@ body {
     font-size: 22px;
     border-bottom: 1px solid #ffffff;
 }
-
 .lock {
 	position: relative;
 	top: 2px;
 }
-
 .input {
     margin: auto;
     width: 240px;
@@ -53,7 +48,6 @@ body {
     padding: 8px 0px;
     margin-top: 15px;
 }
-
 .input-addon {
     float: left;
     background-color: #f57b09;
@@ -61,11 +55,9 @@ body {
     padding: 4px 8px;
     border-right: 1px solid #ffffff;
 }
-
 input[type=checkbox] {
     cursor: pointer;
 }
-
 input[type=text] {
     color: #ffffff;
     margin: 0;
@@ -74,11 +66,9 @@ input[type=text] {
     padding: 6px 0px;
     border-radius: 3px;
 }
-
 input[type=text]:focus {
     border: 1px solid #f57b09;
 }
-
 input[type=password] {
     color: #ffffff;
     margin: 0;
@@ -87,11 +77,9 @@ input[type=password] {
     padding: 6px 0px;
     border-radius: 3px;
 }
-
 input[type=password]:focus {
     border: 1px solid #f57b09;
 }
-
 input[type=email] {
     color: #ffffff;
     margin: 0;
@@ -100,62 +88,50 @@ input[type=email] {
     padding: 6px 0px;
     border-radius: 3px;
 }
-
 input[type=email]:focus {
     border: 1px solid #f57b09;
 }
-
 .forgot-password {
     position: relative;
     bottom: 0%;
     color: rgb(127, 125, 125);
 }
-
 .forgot-password a:link {
     color: #ffffff;
     text-decoration: none;
 }
-
 .forgot-password a:visited {
     color: #ffffff;
     text-decoration: none;
 }
-
 .forgot-password a:hover {
     color: #FFF;
     transition: color 1s;
 }
-
 .privacy {
     margin-top: 5px;
     position: relative;
     font-size: 12px;
     bottom: 0%;
 }
-
 .privacy a:link {
     color:rgb(127, 125, 125);
     text-decoration: none;
 }
-
 .privacy a:visited {
     color:rgb(127, 125, 125);
     text-decoration: none;
 }
-
 .privacy a:hover {
     color:rgb(127, 125, 125);
     transition: color 1s;
 }
-
 *:focus {
     outline: none;
 }
-
 .remember-me {
     margin: 10px 0;
 }
-
 input[type=submit] {
     padding: 6px 25px;
     background: #f57b09;
@@ -165,7 +141,6 @@ input[type=submit] {
     cursor: pointer;
     border-radius: 3px;
 }
-
 .register {
     margin: auto;
     padding: 16px 0;
@@ -175,11 +150,9 @@ input[type=submit] {
     border-top: 1px solid #000000;
     color:rgb(127, 125, 125);
 }
-
 .clearfix {
     clear: both;
 }
-
 #register-link {
     margin-top: 10px;
     padding: 6px 25px;
