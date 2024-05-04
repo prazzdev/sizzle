@@ -2,6 +2,18 @@
   scroll-behavior: smooth;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+}
+
+.navbar {
+  padding: 10px 0;
+}
+
+
 .col-6 > a {
   text-decoration: none;
 }
@@ -96,5 +108,3 @@
   opacity: 0;
   visibility: hidden;
 }
-
-

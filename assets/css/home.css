@@ -1,3 +1,7 @@
+:root {
+  scroll-behavior: smooth;
+}
+
 .carousel-inner {
   justify-content: center;
 }

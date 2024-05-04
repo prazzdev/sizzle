@@ -8,7 +8,7 @@ body {
 #container-login {
     background-color: #ffffff;
     position: relative;
-    top: 20%;
+    top: 15%;
     margin: auto;
     width: 340px;
     height: 445px;
@@ -19,7 +19,7 @@ body {
 #container-register {
     background-color: #ffffff;
     position: relative;
-    top: 20%;
+    top: 12%;
     margin: auto;
     width: 340px;
     height: 480px;
