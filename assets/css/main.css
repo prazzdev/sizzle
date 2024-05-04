@@ -29,7 +29,7 @@ body {
 }
 #title {
     position: relative;
-    background-color: #f57b09;
+    background-color: #FBA834;
     width: 100%;
     padding: 20px 0px;
     border-radius: 0.35em;
@@ -44,14 +44,14 @@ body {
     margin: auto;
     width: 240px;
     border-radius: 4px;
-    background-color: #f57b09;
+    background-color: #FBA834;
     padding: 8px 0px;
     margin-top: 15px;
 }
 .input-addon {
     float: left;
-    background-color: #f57b09;
-    border: 1px solid #f57b09;
+    background-color: #FBA834;
+    border: 1px solid #FBA834;
     padding: 4px 8px;
     border-right: 1px solid #ffffff;
 }
@@ -61,35 +61,35 @@ input[type=checkbox] {
 input[type=text] {
     color: #ffffff;
     margin: 0;
-    background-color: #f57b09;
+    background-color: #FBA834;
     border: 1px solid #ffffff;
     padding: 6px 0px;
     border-radius: 3px;
 }
 input[type=text]:focus {
-    border: 1px solid #f57b09;
+    border: 1px solid #FBA834;
 }
 input[type=password] {
     color: #ffffff;
     margin: 0;
-    background-color: #f57b09;
+    background-color: #FBA834;
     border: 1px solid #ffffff;
     padding: 6px 0px;
     border-radius: 3px;
 }
 input[type=password]:focus {
-    border: 1px solid #f57b09;
+    border: 1px solid #FBA834;
 }
 input[type=email] {
     color: #ffffff;
     margin: 0;
-    background-color: #f57b09;
+    background-color: #FBA834;
     border: 1px solid #ffffff;
     padding: 6px 0px;
     border-radius: 3px;
 }
 input[type=email]:focus {
-    border: 1px solid #f57b09;
+    border: 1px solid #FBA834;
 }
 .forgot-password {
     position: relative;
@@ -134,7 +134,7 @@ input[type=email]:focus {
 }
 input[type=submit] {
     padding: 6px 25px;
-    background: #f57b09;
+    background: #FBA834;
     color:#ffffff;
     font-weight: bold;
     border: 0 none;
@@ -156,7 +156,7 @@ input[type=submit] {
 #register-link {
     margin-top: 10px;
     padding: 6px 25px;
-    background: #f57b09;
+    background: #FBA834;
     color: #ffffff;
     font-weight: bold;
     border: 0 none;
